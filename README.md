@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/actiniumio/terraform-gcp-europe-nested-virt.svg?style=svg)](https://circleci.com/gh/actiniumio/terraform-gcp-europe-nested-virt)
+[![CircleCI](https://circleci.com/gh/actiniumio/terraform-gcp-europe.svg?style=svg)](https://circleci.com/gh/actiniumio/terraform-gcp-europe)
 
 # terraform on GCP europe
 
