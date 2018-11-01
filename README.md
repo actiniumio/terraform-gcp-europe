@@ -17,7 +17,7 @@ This will create the `terraform.tfstate` file
 ## Running it
 
 ```bash
-$ terraform plan
+$ terraform plan -var 'project-name=mykey' -var 'vmcount=mykey' -var 'region=mykey' -var 'instance-name=mykey' -var 'subnetwork-region=mykey' -var 'network=mykey' -var 'vm_type=mykey' -var 'os=mykey'
 $ terraform apply -var 'project-name=mykey' -var 'vmcount=mykey' -var 'region=mykey' -var 'instance-name=mykey' -var 'subnetwork-region=mykey' -var 'network=mykey' -var 'vm_type=mykey' -var 'os=mykey'
 ```
 
@@ -52,11 +52,11 @@ You can found all the Google Cloud Plartform Region on this [Here](https://cloud
 
 | Region      | GCP Subnetwork Region | GCP Zone  | GCP Region      |
 | ----------- | --------------------- | --------- | --------------- |
-| Belgium     | europe-west1          | b / c / d | europe-west1-d  |
-| London      | europe-west2          | a / b / c | europe-west2-a  |
-| Frankfurt   | europe-west3          | a / b / c | europe-west3-a  |
-| Netherlands | europe-west4          | a / b / c | europe-west4-a  |
-| Finland     | europe-north1         | a / b / c | europe-north1-a |
+| belgium     | europe-west1          | b / c / d | europe-west1-d  |
+| london      | europe-west2          | a / b / c | europe-west2-a  |
+| frankfurt   | europe-west3          | a / b / c | europe-west3-a  |
+| netherlands | europe-west4          | a / b / c | europe-west4-a  |
+| finland     | europe-north1         | a / b / c | europe-north1-a |
 
 ### VM Type
 

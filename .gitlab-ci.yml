@@ -1,6 +1,0 @@
-image: hashicorp/terraform:latest
-
-validate:
-  script:
-    - terraform init
-    - terraform validate -var 'project-name=mykey' -var 'vmcount=mykey' -var 'region=mykey' -var 'instance-name=mykey' -var 'subnetwork-region=mykey' -var 'network=mykey' -var 'vm_type=mykey' -var 'os=mykey'
