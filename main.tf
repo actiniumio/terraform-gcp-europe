@@ -1,4 +1,4 @@
-resource "google_compute_instance" "actiniumio-test-allspark" {
+resource "google_compute_instance" "actiniumio-test-box" {
   count = "${var.vmcount}"
   name = "${var.instance-name}-${count.index + 1}"
   machine_type = "${var.vm_type}"
@@ -25,7 +25,7 @@ resource "google_compute_instance" "actiniumio-test-allspark" {
   }
 
   network_interface {
-    subnetwork = "${google_compute_subnetwork.allspark_network_subnetwork.name}"
+    subnetwork = "${google_compute_subnetwork.actinium_network_subnetwork.name}"
 
     access_config {
       // Ephemeral IP
