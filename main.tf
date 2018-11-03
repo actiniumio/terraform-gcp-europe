@@ -16,7 +16,7 @@ resource "google_compute_instance" "actiniumio-test-box" {
   boot_disk {
     initialize_params {
       image = "${var.os}"
-      size = "20"
+      size = "${var.disk-size}"
       type  = "pd-ssd"
     }
   }
