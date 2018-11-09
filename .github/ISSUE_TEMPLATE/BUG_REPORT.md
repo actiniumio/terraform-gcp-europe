@@ -29,35 +29,22 @@ Steps to reproduce the behaviour:
 
 > Informations about the control and allspark machines.
 
-- **Terraform Plan**
-  - *version*
-
-```
-output of `git rev-parse HEAD`
-```
-
-  - *configuration*
-
-```yaml
-# Terraform varriables.tf
-```
-
-  - *terraform command*
-```shell
-`terraform plan -var "foo=bar"`
-```
-
-- **Terraform server**
-  - *Operating system* :
-
-```
-output of `uname -a`
-```
-
-  - *Terraform version* (if used to reproduce the issue) :
+- *Terraform version* (if used to reproduce the issue) :
 
 ```
 output of `terraform version`
+```
+
+- *Vagrant version* (if used to reproduce the issue) :
+
+```
+output of `vagrant version`
+```
+
+  - *Vagrant plugin version* (if used to reproduce the issue) :
+
+```
+output of `vagrant plugin list`
 ```
 
 ---
